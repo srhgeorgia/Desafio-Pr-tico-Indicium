@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body, html {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;    font-size: 14px;
+    height: 100vh;
+    scroll-behavior: smooth;
+    color: black;
+}   
+
+
+/* ----------------------------CABECALHO E FOOTER */
+header {
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    border-radius: 0 0 65px;
+}
+
+.list-items {
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.menu-content {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 12px; */
+}
+
+#logo {
+    cursor: pointer;
+    padding: 0 25px;
+    margin-left: 5px;
+    width: 35px;
+    transition: all 0.3s;
+}
+
+#logo:hover{
+    transform: scale(1.4);
+}
+
+.menu-content .list-items {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-items a {
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem;
+}
+
+.list-items a:hover {
+    font-weight: bold;
+    color: #EE7600;
+}
+
+.link {
+    width: 35px;
+    height: 35px;
+    /* margin-left: 50%; */
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    /* background: #EE7600; */
+    text-align: center;
+    padding: 10px
+}
+
+
+/* ----------------------------H E P */
+
+.titulos {
+    color: #EE7600;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: #000 2px 3px 9px;
+}
+
+.h1Principal{
+    text-transform: uppercase;
+    color: #EE7600;
+}
+
+h2 {
+    /* color: white; */
+    font-size: 300%;
+    /* text-align: center; */
+}
+
+p,
+h3 {
+    text-align: center;
+    /* color: #E0EEE0; */
+}
+
+/* ----------------------------CORPO PRINCIPAL */
+
+.container-principal{
+display: flex;
+flex-direction: column;
+margin-left: 40%;
+justify-content: center;
+align-items: center;
+}
+
+.eu {
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    margin-right: 16%;
+}
+
+.frontend,
+.linguagens {
+    width: 35%;
+    float: right;
+    margin-right: 10%;
+}
+
+.p-conteudo {
+    margin-right: 50%;
+    font-weight: bold;
+}
+
+.container {
+margin-top: 10%;
+font-size: 16px;
+}
+
+
+/* ----------------------------DIVS PRINCIPAIS */
+
+#historia{
+    background-color: #6B8E23;
+}
+#interesses{
+    background-color: #4682B4;
+}
+#experiencia{
+    background-color:#CD853F;
+}
+
+#historia,
+#interesses,
+#experiencia,
+#principal {
+    min-height: 85vh;
+    display: flex;
+    width: 100vw;
+}
+
